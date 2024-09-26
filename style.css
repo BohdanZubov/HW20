@@ -1,0 +1,22 @@
+body {
+background-color: green;
+margin: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+
+.bg-box {
+  height: 55rem;
+  width: 94rem;
+
+  background-image: url("/img/buld.png"),
+  url("/img/Grass.png"),
+  url("/img/Donut.png"),
+  url("/img/Hedgehog.webp"),
+  url("/img/house.webp");
+background-repeat: repeat-x, repeat-x, repeat-y, repeat-y, no-repeat;
+background-position: top, bottom, right, left, center;
+background-size: 50px, 380px, 50px, 50px, auto;
+}
